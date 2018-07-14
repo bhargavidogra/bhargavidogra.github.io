@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<!--
+	Phase Shift by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Patient Billing Software</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div class="wrapper style1">
+
+				<!-- Header -->
+					<div id="header" class="skel-panels-fixed">
+						<div id="logo">
+							<h1><a href="welcome.html">Welcome</a></h1>
+							
+						</div>
+						<nav id="nav">
+							<ul>
+								<li class="active"><a href="welcome.html">Dashboard</a></li>
+								<li><a href="plan.html">plan</a></li>
+								<li><a href="insurance.html">Verify Insurance</a></li>
+								<li><a href="index.html">LOGOUT</a></li>
+<li><a href="paymentrecord.html">Payment Record </a></li>
+<li><a href="refund.html">Track reimbersment</a></li>
+							</ul>
+						</nav>
+					</div>
+
+				<!-- Banner -->
+
+					
+				<!-- Page -->
+					<div id="page" class="container">
+						<div class="row">
+		
+							<!-- Sidebar -->
+							<div id="sidebar" class="4u">
+								<section>
+									<header class="major">
+										<h2>Facilities & Resources</h2>
+									</header>
+									<div class="row half">
+										<section class="6u">
+											<ul class="default">
+												<li><a href="#">Medical Scheduling</a></li>
+												<li><a href="#">Electronic Medical Report</a></li>
+												<li><a href="#">E-Prescription</a></li>
+												<li><a href="#">Labortary Services </a></li>
+												<li><a href="#">Dental Facilities</a></li>
+											</ul>
+										</section>
+										<section class="6u">
+											<ul class="default small">
+												<li><a href="#">Doctors Available</a></li>
+												<li><a href="#">Allopathy Services</a></li>
+												<li><a href="#">Homeopathy Services</a></li>
+												<li><a href="#">Ward Availabilty</a></li>
+												<li><a href="#">Ambulance Services</a></li>
+											</ul>
+										</section>
+									</div>
+								</section>
+								<section>
+																		<img src="health.jpg"  width="250" height="250">
+<img src="doctor.jpg"  width="250" height="250">					<img src="heart.jpg"  width="250" height="250">				
+								</section>
+							</div>
+							
+							<!-- Content -->
+							<div id="content" class="8u skel-cell-important">
+								<section>
+									<header class="major">
+										<h2>SET UP A SCHEDULED PLAN</h2>
+										<span class="byline">planning </span>
+									</header>
+					<form   NAME="form2" action="billing.php" method=post>
+<fieldset>
+<br><br>
+
+Start Planning:<br>
+
+<br>
+Enter your id:&nbsp&nbsp&nbsp&nbsp
+  <input type="int" name="id" placeholder="ID">
+  <br>
+<br>
+Medical sceduling:  [Rs.1500]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="ms"  value="1500">yes
+
+<input type="checkbox"  name="ms" value="0">no 
+<br><br>
+Electronic Medical Report:  [Rs.500]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="ereport"  value="500">yes
+
+<input type="checkbox"  name="ereport" value="0">no 
+<br><br>
+E-Prescription:  [Rs.100]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="eps"  value="100">yes
+
+<input type="checkbox"  name="eps" value="0">no 
+<br><br>
+Labratory Services(tests):  [Rs.2000]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="ls"  value="2000">yes
+
+<input type="checkbox"  name="ls" value="0">no 
+<br><br>
+Dental Facilities:  [Rs.500]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="df"  value="500">yes
+
+<input type="checkbox"  name="df" value="0">no 
+<br><br>
+Doctor Availability(doctor's fee):[Rs.100]
+<input type="checkbox"  name="da"  value="100">yes
+
+<input type="checkbox"  name="da" value="0">no 
+<br><br>
+Allopathy Services:  [Rs.1500]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="as"  value="1500">yes
+
+<input type="checkbox"  name="as" value="0">no 
+<br><br>
+Homeopathy services:  [Rs.1800]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="hs"  value="1800">yes
+
+<input type="checkbox"  name="hs" value="0">no 
+<br><br>
+Ward Availability:  [Rs.5000(general)]  [Rs.10000(special)]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="ward"  value="5000">general
+
+<input type="checkbox"  name="ward" value="10000">special
+<br><br>
+Ambulance Services:  [Rs.1000]&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="checkbox"  name="ambul"  value="1000">yes
+
+<input type="checkbox"  name="ambul" value="0">no 
+<br><br>
+<br>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<input type="Submit"  name="submit" value="Save Schedule"> 
+</fieldset> 
+</form>
+								</section>
+							</div>
+		
+						</div>
+					</div>
+				<!-- /Page -->
+
+				<!-- Main -->
+					<div id="main">
+						<div class="container">
+							<div class="row"> 
+								
+								<!-- Content -->
+								<div class="6u">
+									<section>
+										<ul class="style">
+											<li class="fa fa-wrench">
+												<h3>CONTACT</h3>
+												<span>Contact the medical authorities in case of any discripances <br>Contact no-78071-61000<br>Reception-98160-37368</span> </li>
+											<li class="fa fa-leaf">
+												<h3>WEBSITE INFO</h3>
+												<span>Resources/Articles<br> About Us<br>Guarantee<br>Search My Website Feature<br>Privacy Policy</span> </li>
+										</ul>
+									</section>
+								</div>
+								<div class="6u">
+									<section>
+										<ul class="style">
+											<li class="fa fa-cogs">
+												<h3>Settings</h3>
+												<span>Privacy<br>Support<br>help<br>advanced search</span> </li>
+											<li class="fa fa-road">
+												<h3>MORE INFOMATION</h3>
+												<span>Branches<br>Request Info</span> </li>
+										</ul>
+									</section>
+								</div>
+							</div>
+						</div>
+					</div>
+				<!-- /Main --> 
+
+	</div>
+
+	<!-- Footer -->
+		<div id="footer" class="wrapper style2">
+			<div class="container">
+				<section>
+					<header class="major">
+						<h2>CONTACT  US</h2>
+						<span class="byline">You can contact us by sending E-mail</span>
+					</header>
+					<form method="post" action="#">
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="name" id="name" placeholder="Name" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<input class="text" type="text" name="email" id="email" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<textarea name="message" id="message" placeholder="Message"></textarea>
+							</div>
+						</div>
+						<div class="row half">
+							<div class="12u">
+								<ul class="actions">
+									<li>
+										<input type="submit" value="Send Message" class="button alt" />
+									</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</section>
+			</div>
+		</div>
+	<!-- /Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright">
+			<div class="container"> <span class="copyright">link us <a href="http://templated.co">USING</a>  <a href="http://unsplash.com">following</a>  <a href="http://unsplash.com/cc0">options:</a></span>
+				<ul class="icons">
+					<li><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="#" class="fa fa-twitter"><span>Twitter</span></a></li>
+					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+				</ul>
+			</div>
+		</div>
+
+	</body>
+</html>

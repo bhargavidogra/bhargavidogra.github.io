@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dailyschedule.xsl"?>
+<appointments>
+  <cd>
+     <id>-1</id>
+    <DoctorName>Dr. Rajesh Kakkar </DoctorName>
+    <Speciality>Internal Medicine </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM - 10:00 PM</Friday>
+     <Saturday>10:00 PM - 7:00 AM</Saturday>
+  </cd>
+   <cd>
+     <id>2</id>
+    <DoctorName>Dr.C.P. Roy </DoctorName>
+    <Speciality>Cardiology </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM - 10:00 PM</Friday>
+     <Saturday>10:00 PM - 7:00 AM</Saturday>
+  </cd>
+ <cd>
+    <id>3</id>
+    <DoctorName>Dr. Dev Mukharjee </DoctorName>
+    <Speciality>Andrology </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM - 10:00 PM</Friday>
+     <Saturday>10:00 PM - 7:00 AM</Saturday>
+  </cd>
+ <cd>
+     <id>4 </id>
+    <DoctorName>Dr. Kamal Kishor Goel </DoctorName>
+    <Speciality>Neurology </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM - 10:00 PM</Friday>
+     <Saturday>10:00 PM - 7:00 AM</Saturday>
+  </cd>
+ <cd>
+     <id>5 </id>
+    <DoctorName>Dr. Kumud Rai</DoctorName>
+    <Speciality>Vascular Surgery </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM - 10:00 PM</Friday>
+     <Saturday>8:00 PM - 05:00 PM</Saturday>
+   </cd>
+ <cd>
+     <id>6</id>
+    <DoctorName>Dr. V.K.Gupta </DoctorName>
+    <Speciality>Gastroenterology </Speciality>
+    <Monday>07:00 AM - 11:00 AM</Monday>
+     <Tuesday>11:00 AM - 2:00 PM</Tuesday>
+     <Wednesday>2:00 PM - 5:00 PM</Wednesday>
+     <Thursday>5:00 PM - 8:00 PM</Thursday>
+     <Friday>8:00 PM  - 10:00 PM</Friday>
+     <Saturday>8:00 PM - 02:00 PM</Saturday>
+     </cd>
+</appointments>
